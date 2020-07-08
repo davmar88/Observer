@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ark.Tools.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Ark.Tools.Core.DisposableContainer">
+            <summary>
+            Utility class for tracking and disposing of objects that implement IDisposable.
+            </summary>
+        </member>
+        <member name="M:Ark.Tools.Core.DisposableContainer.Dispose">
+            <summary>
+            Disposes of all elements of list.
+            </summary>
+        </member>
+        <member name="M:Ark.Tools.Core.DisposableContainer.Add(System.IDisposable)">
+            <summary>
+            Add an item to the list.
+            </summary>
+        </member>
+        <member name="T:Ark.Tools.Core.ReflectionHelper">
+            <summary>
+            Reflection utilities
+            </summary>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetAttribute``1(System.Reflection.MemberInfo)">
+            <summary>
+            Get the `Attribute` object of the specified type associated with a member.
+            </summary>
+            <typeparam name="TAttribute">Type of attribute to get.</typeparam>
+            <param name="memberInfo">The member to look for the attribute on.</param>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetAttribute``1(System.Type)">
+            <summary>
+            Get the `Attribute` object of the specified type associated with a class.
+            </summary>
+            <typeparam name="TAttribute">Type of attribute to get.</typeparam>
+            <param name="type">The class to look for the attribute on.</param>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetEnumerableItemType(System.Type)">
+            <summary>
+            Get the item type of a type that implements `IEnumerable`.
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetFieldOrPropertyValue(System.Object,System.String)">
+            <summary>
+            Get a field or property value from an object.
+            </summary>
+            <param name="obj">The object whose property we want.</param>
+            <param name="name">The name of the field or property we want.</param>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetFieldOrPropertyValue``1(System.Object,System.String)">
+            <summary>
+            Get a field or property value from an object.
+            </summary>
+            <param name="obj">The object whose property we want.</param>
+            <param name="name">The name of the field or property we want.</param>
+        </member>
+        <member name="M:Ark.Tools.Core.ReflectionHelper.GetCSTypeName(System.Type)">
+            <summary>
+            Return the name of the type as it is written in CS code
+            </summary>
+            <param name="type">the type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ark.Tools.Core.ShredObjectToDataTable`1.Shred(System.Collections.Generic.IEnumerable{`0},System.Data.DataTable,System.Nullable{System.Data.LoadOption})">
+            <summary> 
+            Loads a DataTable from a sequence of objects. 
+            </summary> 
+            <param name="source">The sequence of objects to load into the DataTable.</param>
+            <param name="table">The input table. The schema of the table must match that 
+            the type T.  If the table is null, a new table is created with a schema  
+            created from the public properties and fields of the type T.</param> 
+            <param name="options">Specifies how values from the source sequence will be applied to 
+            existing rows in the table.</param> 
+            <returns>A DataTable created from the source sequence.</returns> 
+        </member>
+        <member name="M:Ark.Tools.SmtpConnectionBuilder.#ctor(System.String)">
+            <summary>
+            Smtp connection string
+            </summary>
+            <remarks>
+            es. Server=smtp.sendgrid.net;Port=587;Username=gnegnegne;Password=nonlosai;UseSsl=true
+            </remarks>
+        </member>
+    </members>
+</doc>

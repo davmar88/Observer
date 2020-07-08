@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ark.Tools.FtpClient.SftpClient</name>
+    </assembly>
+    <members>
+        <member name="M:Ark.Tools.FtpClient.SftpClient.SftpClientConnection.ListDirectoryAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            List all entries of a folder.
+            </summary>
+            <param name="path">The folder path to list</param>
+            <param name="ctk"></param>
+            <returns>
+            All entries found (files, folders, symlinks)
+            </returns>
+        </member>
+        <member name="M:Ark.Tools.FtpClient.SftpClient.SftpClientConnection.DownloadFileAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Downloads the file asynchronous.
+            </summary>
+            <param name="path">The path.</param>
+            <param name="ctk">The CTK.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

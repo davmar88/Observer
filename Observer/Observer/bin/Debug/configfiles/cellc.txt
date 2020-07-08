@@ -1,0 +1,6 @@
+cellid:230
+mcc:655
+mnc:07
+lac:22
+brand:CellC ZA
+imsioperator:CellC

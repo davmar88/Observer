@@ -1,0 +1,6 @@
+cellid:30
+mcc:655
+mnc:7
+lac:202
+brand:Cell C
+imsioperator:Cell C

@@ -1,0 +1,6 @@
+cellid:302
+mcc:655
+mnc:10
+lac:32828
+brand:MTN ZA
+imsioperator:MTN

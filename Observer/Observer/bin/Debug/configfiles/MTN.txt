@@ -1,0 +1,6 @@
+cellid:17
+mcc:655
+mnc:10
+lac:27001
+brand:MTN
+imsioperator:MTN

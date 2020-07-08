@@ -1,0 +1,6 @@
+cellid:405
+mcc:655
+mnc:02
+lac:108
+brand:Telkom ZA
+imsioperator:Telkom

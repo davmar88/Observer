@@ -1,0 +1,6 @@
+cellid:421
+mcc:655
+mnc:2
+lac:10407
+brand:Telkom
+imsioperator:Telkom

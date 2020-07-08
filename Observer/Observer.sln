@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{81A57248-7F00-47CC-8A9C-D2C163851E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A57248-7F00-47CC-8A9C-D2C163851E01}.Debug|x86.ActiveCfg = Debug|x86
+		{81A57248-7F00-47CC-8A9C-D2C163851E01}.Debug|x86.Build.0 = Debug|x86
+		{81A57248-7F00-47CC-8A9C-D2C163851E01}.Release|x86.ActiveCfg = Release|x86
+		{81A57248-7F00-47CC-8A9C-D2C163851E01}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

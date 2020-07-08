@@ -1,0 +1,8 @@
+timerseconds:60
+long:28.2005790
+lat:-25.7241602
+country:South Africa
+boxid:client-01
+username:lh123
+password:demo123
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVuaXF1ZW9wYXF1ZWlkIiwibmJmIjoxNTg4MjUwMzM0LCJleHAiOjE2MDQwNjE1MzQsImlhdCI6MTU4ODI1MDMzNH0.ancYWsVPWEmfda1fPAjjMQs30uczbTNnTR8c7aEe_TQ

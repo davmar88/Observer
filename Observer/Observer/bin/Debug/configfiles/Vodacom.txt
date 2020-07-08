@@ -1,0 +1,6 @@
+cellid:228
+mcc:655
+mnc:1
+lac:26007
+brand:Vodacom
+imsioperator:Vodacom

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ark.Tools.NLog</name>
+    </assembly>
+    <members>
+        <member name="M:Ark.Tools.NLog.ActivityIdLayoutRenderer.Append(System.Text.StringBuilder,NLog.LogEventInfo)">
+            <summary>
+            Renders the machine name and appends it to the specified <see cref="T:System.Text.StringBuilder" />.
+            </summary>
+            <param name="builder">The <see cref="T:System.Text.StringBuilder"/> to append the rendered data to.</param>
+            <param name="logEvent">Logging event.</param>
+        </member>
+        <member name="M:Ark.Tools.NLog.HostNameLayoutRenderer.InitializeLayoutRenderer">
+            <summary>
+            Initializes the layout renderer.
+            </summary>
+        </member>
+        <member name="M:Ark.Tools.NLog.HostNameLayoutRenderer.Append(System.Text.StringBuilder,NLog.LogEventInfo)">
+            <summary>
+            Renders the machine name and appends it to the specified <see cref="T:System.Text.StringBuilder" />.
+            </summary>
+            <param name="builder">The <see cref="T:System.Text.StringBuilder"/> to append the rendered data to.</param>
+            <param name="logEvent">Logging event.</param>
+        </member>
+    </members>
+</doc>

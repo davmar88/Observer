@@ -1,0 +1,6 @@
+cellid:312
+mcc:655
+mnc:01
+lac:7117
+brand:Vodacom ZA
+imsioperator:Vodacom
